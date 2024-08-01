@@ -1,0 +1,246 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>assets/carIcons/BackSeat.png</file>
+        <file>assets/carIcons/BackStorage.png</file>
+        <file>assets/carIcons/DriverSeat.png</file>
+        <file>assets/carIcons/DriverSideSeat.png</file>
+        <file>assets/carIcons/frontEngine.png</file>
+        <file>assets/carIcons/HighlightLeftTopTire.png</file>
+        <file>assets/carIcons/LeftSideMirror.png</file>
+        <file>assets/carIcons/lefttiretopandSeatSlectedpng.png</file>
+        <file>assets/carIcons/leftTopTire.png</file>
+        <file>assets/carIcons/lowerLeftire.png</file>
+        <file>assets/carIcons/lowerRightTire.png</file>
+        <file>assets/carIcons/RightSideMirror.png</file>
+        <file>assets/carIcons/righttopTire.png</file>
+        <file>assets/carIcons/vehical.png</file>
+        <file>assets/fontawesome/fontawesome.otf</file>
+        <file>assets/icons/Air Back Window.svg</file>
+        <file>assets/icons/Air Down.svg</file>
+        <file>assets/icons/Air Up.svg</file>
+        <file>assets/icons/Air Windshield.svg</file>
+        <file>assets/icons/Back Arrow.svg</file>
+        <file>assets/icons/Backup Camera Picture.png</file>
+        <file>assets/icons/BatteryIcon-2.svg</file>
+        <file>assets/icons/BatteryIcon.svg</file>
+        <file>assets/icons/BatteryIcon_normal.svg</file>
+        <file>assets/icons/BatteryIcon_sports.svg</file>
+        <file>assets/icons/Bluetooth Icon.svg</file>
+        <file>assets/icons/camera.png</file>
+        <file>assets/icons/camera.svg</file>
+        <file>assets/icons/Car Settings Icon.svg</file>
+        <file>assets/icons/Climate Control Icon.svg</file>
+        <file>assets/icons/Cloud Icon.svg</file>
+        <file>assets/icons/Double Arrows.svg</file>
+        <file>assets/icons/double-arrow.svg</file>
+        <file>assets/icons/Down.svg</file>
+        <file>assets/icons/Eco Leaf Icon 2.svg</file>
+        <file>assets/icons/Eco Leaf Icon.svg</file>
+        <file>assets/icons/Erroricon.svg</file>
+        <file>assets/icons/Fan Icon.svg</file>
+        <file>assets/icons/FMStation.svg</file>
+        <file>assets/icons/Front Arrow.svg</file>
+        <file>assets/icons/green-wave-01.png</file>
+        <file>assets/icons/green-wave-02.png</file>
+        <file>assets/icons/green-wave-03.png</file>
+        <file>assets/icons/green-wave-04.png</file>
+        <file>assets/icons/green-wave-05.png</file>
+        <file>assets/icons/Heat Seats.svg</file>
+        <file>assets/icons/Home Icon.svg</file>
+        <file>assets/icons/Home-icon-Add.svg</file>
+        <file>assets/icons/jam--repeat.svg</file>
+        <file>assets/icons/left-arrow.svg</file>
+        <file>assets/icons/lidar.png</file>
+        <file>assets/icons/lock.svg</file>
+        <file>assets/icons/logoactia.png</file>
+        <file>assets/icons/logoactiagray.png</file>
+        <file>assets/icons/logoactiawhite.png</file>
+        <file>assets/icons/logos--spotify-icon.svg</file>
+        <file>assets/icons/lucide--repeat-1.svg</file>
+        <file>assets/icons/mage--next-fill.svg</file>
+        <file>assets/icons/mage--pause-fill.svg</file>
+        <file>assets/icons/mage--play-fill.svg</file>
+        <file>assets/icons/mage--previous-fill.svg</file>
+        <file>assets/icons/Map Picture.png</file>
+        <file>assets/icons/Media Icon.svg</file>
+        <file>assets/icons/mi--repeat.svg</file>
+        <file>assets/icons/mingcute--shuffle-2-fill.svg</file>
+        <file>assets/icons/motor.svg</file>
+        <file>assets/icons/music-backword.svg</file>
+        <file>assets/icons/music-forword.svg</file>
+        <file>assets/icons/Navigation Icon.svg</file>
+        <file>assets/icons/orange-wave-01.png</file>
+        <file>assets/icons/orange-wave-02.png</file>
+        <file>assets/icons/orange-wave-03.png</file>
+        <file>assets/icons/orange-wave-04.png</file>
+        <file>assets/icons/orange-wave-05.png</file>
+        <file>assets/icons/Plus-icon-add.svg</file>
+        <file>assets/icons/Power Icon.svg</file>
+        <file>assets/icons/red-wave-01.png</file>
+        <file>assets/icons/red-wave-02.png</file>
+        <file>assets/icons/red-wave-03.png</file>
+        <file>assets/icons/red-wave-04.png</file>
+        <file>assets/icons/red-wave-05.png</file>
+        <file>assets/icons/Seat B&amp;F.svg</file>
+        <file>assets/icons/Seat Recline.svg</file>
+        <file>assets/icons/sensor.svg</file>
+        <file>assets/icons/Skip Track Button.svg</file>
+        <file>assets/icons/Sport Flag Icon.svg</file>
+        <file>assets/icons/Sport Flag Icon_battery.svg</file>
+        <file>assets/icons/Straight Arrow.svg</file>
+        <file>assets/icons/Tire Pressure Icon.svg</file>
+        <file>assets/icons/Volume Icon.svg</file>
+        <file>assets/icons/Warning.svg</file>
+        <file>assets/icons/Warningicon.svg</file>
+        <file>assets/icons/Wifi-icon.svg</file>
+        <file>assets/icons/Work-icon-add.svg</file>
+        <file>assets/image/actia.png</file>
+        <file>assets/image/background.png</file>
+        <file>assets/image/bar.png</file>
+        <file>assets/image/battery-empty-solid.svg</file>
+        <file>assets/image/battery-full-solid.svg</file>
+        <file>assets/image/battery-half-solid.svg</file>
+        <file>assets/image/battery-quarter-solid.svg</file>
+        <file>assets/image/battery-three-quarters-solid.svg</file>
+        <file>assets/image/bluetooth.svg</file>
+        <file>assets/image/bluetriangle.png</file>
+        <file>assets/image/calendar.png</file>
+        <file>assets/image/cell signal.svg</file>
+        <file>assets/image/clock.png</file>
+        <file>assets/image/cover.png</file>
+        <file>assets/image/cover_frame.png</file>
+        <file>assets/image/cover_overlay.png</file>
+        <file>assets/image/gear.png</file>
+        <file>assets/image/green-wave-01.png</file>
+        <file>assets/image/green-wave-02.png</file>
+        <file>assets/image/green-wave-03.png</file>
+        <file>assets/image/green-wave-04.png</file>
+        <file>assets/image/green-wave-05.png</file>
+        <file>assets/image/greensquare.png</file>
+        <file>assets/image/humidity.png</file>
+        <file>assets/image/location.png</file>
+        <file>assets/image/lock.png</file>
+        <file>assets/image/logoactia.png</file>
+        <file>assets/image/logoactiagray.png</file>
+        <file>assets/image/logoactiawhite.png</file>
+        <file>assets/image/moins.png</file>
+        <file>assets/image/navette-top-view-.png</file>
+        <file>assets/image/navette-vue-dessus.png</file>
+        <file>assets/image/navette-vue-dessus1.png</file>
+        <file>assets/image/navette-vue-dessus2.png</file>
+        <file>assets/image/navette.png</file>
+        <file>assets/image/navigation.png</file>
+        <file>assets/image/needle.svg</file>
+        <file>assets/image/orange-wave-01.png</file>
+        <file>assets/image/orange-wave-02.png</file>
+        <file>assets/image/orange-wave-03.png</file>
+        <file>assets/image/orange-wave-04.png</file>
+        <file>assets/image/orange-wave-05.png</file>
+        <file>assets/image/path.png</file>
+        <file>assets/image/pause.png</file>
+        <file>assets/image/plus.png</file>
+        <file>assets/image/red-wave-01.png</file>
+        <file>assets/image/red-wave-02.png</file>
+        <file>assets/image/red-wave-03.png</file>
+        <file>assets/image/red-wave-04.png</file>
+        <file>assets/image/red-wave-05.png</file>
+        <file>assets/image/redcircle.png</file>
+        <file>assets/image/search.png</file>
+        <file>assets/image/slider_background.png</file>
+        <file>assets/image/slider_knob.png</file>
+        <file>assets/image/slider_value_left.png</file>
+        <file>assets/image/slider_value_right.png</file>
+        <file>assets/image/Speed Limit.svg</file>
+        <file>assets/image/spotify.png</file>
+        <file>assets/image/spotify.svg</file>
+        <file>assets/image/spotify_circle.svg</file>
+        <file>assets/image/spotifyimg.png</file>
+        <file>assets/image/thermometer.png</file>
+        <file>assets/image/tickmark.svg</file>
+        <file>assets/image/unlock.png</file>
+        <file>assets/image/user.png</file>
+        <file>assets/image/violetcircle.png</file>
+        <file>assets/music-dummy-icons/Song 1.png</file>
+        <file>assets/music-dummy-icons/Song 2.png</file>
+        <file>assets/music-dummy-icons/Song 3.png</file>
+        <file>assets/music-dummy-icons/Song 4.png</file>
+        <file>assets/music-dummy-icons/Song 5.png</file>
+        <file>assets/music-dummy-icons/Song 6.png</file>
+        <file>assets/seatIcons/mdi--car-child-seat.svg</file>
+        <file>assets/seatIcons/mdi--car-seat-cooler.svg</file>
+        <file>assets/seatIcons/mdi--car-seat-heater.svg</file>
+        <file>assets/seatIcons/mdi--car-seat.svg</file>
+        <file>assets/seatIcons/mdi--seat-flat-angled.svg</file>
+        <file>assets/seatIcons/mdi--seat-individual-suite.svg</file>
+        <file>assets/seatIcons/mdi--seat-legroom-extra.svg</file>
+        <file>assets/seatIcons/mdi--seat-legroom-normal.svg</file>
+        <file>assets/seatIcons/mdi--seat-passenger.svg</file>
+        <file>assets/seatIcons/mdi--seat-recline-extra(1).svg</file>
+        <file>assets/seatIcons/mdi--seat-recline-extra.svg</file>
+        <file>assets/seatIcons/mdi--seatbelt.svg</file>
+        <file>assets/navette-top-view-.png</file>
+        <file>assets/navette.png</file>
+        <file>assets/techcoderhub_logo.jpg</file>
+        <file>Components/AirControlTile.qml</file>
+        <file>Components/BatteryTile.qml</file>
+        <file>Components/CameraController.qml</file>
+        <file>Components/CameraView.qml</file>
+        <file>Components/CliemateSmallTile.qml</file>
+        <file>Components/ConnectedFMStation.qml</file>
+        <file>Components/ConnectedMobileDevice.qml</file>
+        <file>Components/ConnectedSpotifyClient.qml</file>
+        <file>Components/DateTimeTile.qml</file>
+        <file>Components/KeyBoardTile.qml</file>
+        <file>Components/LargeTileMusic.qml</file>
+        <file>Components/LockandWarning.qml</file>
+        <file>Components/MapTile.qml</file>
+        <file>Components/MediaControlFile.qml</file>
+        <file>Components/MusicListTile.qml</file>
+        <file>Components/MusicSmallTile.qml</file>
+        <file>Components/NavetteImage.qml</file>
+        <file>Components/NotificationTile.qml</file>
+        <file>Components/PowerControls.qml</file>
+        <file>Components/SeatIcon.qml</file>
+        <file>Components/SeatTile.qml</file>
+        <file>Components/SettingsControl.qml</file>
+        <file>Components/SettingsControlBackStorage.qml</file>
+        <file>Components/SettingsControlBasePage.qml</file>
+        <file>Components/SettingsControlEngine.qml</file>
+        <file>Components/SettingsControlHomePage.qml</file>
+        <file>Components/SettingsControlMirrorAdjustment.qml</file>
+        <file>Components/SettingsControlSeatAdjustment.qml</file>
+        <file>Components/SettingsControlTirePressure.qml</file>
+        <file>Components/TirePressureInfo.qml</file>
+        <file>Components/TopView.qml</file>
+        <file>Components/VehicleSkeletonTile.qml</file>
+        <file>Components/WeatherTile.qml</file>
+        <file>Components/YourVehicalTile.qml</file>
+        <file>screens/CameraStreaming.qml</file>
+        <file>screens/HomeScreen.qml</file>
+        <file>screens/NavigationScreen.qml</file>
+        <file>screens/UltrasonicSensor.qml</file>
+        <file>weather/components/BigForecastIcon.qml</file>
+        <file>weather/components/ForecastIcon.qml</file>
+        <file>weather/components/WeatherIcon.qml</file>
+        <file>weather/icon/ic_launcher.png</file>
+        <file>weather/icon/weather-few-clouds.png</file>
+        <file>weather/icon/weather-fog.png</file>
+        <file>weather/icon/weather-haze.png</file>
+        <file>weather/icon/weather-icy.png</file>
+        <file>weather/icon/weather-overcast.png</file>
+        <file>weather/icon/weather-showers.png</file>
+        <file>weather/icon/weather-sleet.png</file>
+        <file>weather/icon/weather-snow.png</file>
+        <file>weather/icon/weather-storm.png</file>
+        <file>weather/icon/weather-sunny-very-few-clouds.png</file>
+        <file>weather/icon/weather-sunny.png</file>
+        <file>weather/icon/weather-thundershower.png</file>
+        <file>SplashScreens.qml</file>
+        <file>MainPage.qml</file>
+        <file>controls/HomeButton.qml</file>
+        <file>controls/PrefsButton.qml</file>
+        <file>controls/PulseButton.qml</file>
+        <file>Components/MeteoWidget.qml</file>
+    </qresource>
+</RCC>
