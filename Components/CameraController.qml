@@ -1,7 +1,9 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
+import QtMultimedia 5.15
 import "../controls"
+
 
 Rectangle {
     id:navetteContainer
@@ -9,6 +11,7 @@ Rectangle {
     Layout.preferredWidth: 400
     Layout.preferredHeight: 600
     radius: 15
+
 
     Text {
         id: titte
@@ -77,10 +80,10 @@ Rectangle {
         anchors.leftMargin: -50
         cursorShape: Qt.PointingHandCursor;
         onClicked: {
-            cameraStreamingAvant.start();
-            cameraStreamingArriere.stop()
-            cameraStreamingRetroD.stop()
-            cameraStreamingRetroG.stop()
+            CameraView.cameraStreamingAvant.start();
+            CameraView.cameraStreamingArriere.stop()
+            CameraView.cameraStreamingRetroD.stop()
+            CameraView.cameraStreamingRetroG.stop()
         }
         Text {
             z:2
@@ -100,10 +103,10 @@ Rectangle {
         anchors.rightMargin: -80
         cursorShape: Qt.PointingHandCursor;
         onClicked: {
-            cameraStreamingArriere.start();
-            cameraStreamingAvant.stop()
-            cameraStreamingRetroD.stop()
-            cameraStreamingRetroG.stop()
+            CameraView.cameraStreamingArriere.start()
+            CameraView.cameraStreamingAvant.stop()
+            CameraView.cameraStreamingRetroD.stop()
+            CameraView.cameraStreamingRetroG.stop()
         }
         Text {
             z:2
@@ -123,10 +126,10 @@ Rectangle {
         anchors.rightMargin: -60
         cursorShape: Qt.PointingHandCursor;
         onClicked: {
-            cameraStreamingRetroG.start();
-            cameraStreamingAvant.stop()
-            cameraStreamingRetroD.stop()
-            cameraStreamingArriere.stop()
+            CameraView.cameraStreamingRetroG.start()
+            CameraView.cameraStreamingAvant.stop()
+            CameraView.cameraStreamingRetroD.stop()
+            CameraView.cameraStreamingArriere.stop()
         }
         Text {
             z:2
@@ -145,13 +148,12 @@ Rectangle {
         anchors.bottomMargin: -20
         anchors.left: parent.left
         anchors.leftMargin: -50
-
         cursorShape: Qt.PointingHandCursor;
         onClicked: {
-            cameraStreamingRetroD.start();
-            cameraStreamingAvant.stop()
-            cameraStreamingRetroG.stop()
-            cameraStreamingArriere.stop()
+            CameraView.cameraStreamingAvant.stop()
+            CameraView.cameraStreamingRetroG.stop()
+            CameraView.cameraStreamingArriere.stop()
+            CameraView.cameraStreamingRetroD.start()
         }
         Text {
             z:2

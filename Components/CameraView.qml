@@ -33,7 +33,7 @@ Rectangle {
             VideoOutput {
                 source: cameraStreamingAvant
                 anchors.fill: parent
-                fillMode:   VideoOutput.PreserveAspectCrop // VideoOutput.PreserveAspectFit , , VideoOutput.Stretch
+                fillMode: VideoOutput.PreserveAspectCrop
                 visible: cameraStreamingAvant.cameraStatus === Camera.ActiveStatus
             }
             Image {
@@ -41,7 +41,7 @@ Rectangle {
                 source: "qrc:/assets/icons/logoactiawhite.png"
                 width: parent.width
                 anchors.centerIn: parent
-                //visible: cameraStreamingRetroG.cameraStatus !== Camera.ActiveStatus
+                visible: cameraStreamingAvant.cameraStatus !== Camera.ActiveStatus
             }
         }
     }
@@ -69,16 +69,15 @@ Rectangle {
             VideoOutput {
                 source: cameraStreamingArriere
                 anchors.fill: parent
-                fillMode:   VideoOutput.PreserveAspectCrop // VideoOutput.PreserveAspectFit , , VideoOutput.Stretch
+                fillMode: VideoOutput.PreserveAspectCrop
                 visible: cameraStreamingArriere.cameraStatus === Camera.ActiveStatus
-
             }
             Image {
                 id: placeholderImageArriere
                 source: "qrc:/assets/icons/logoactia.png"
                 width: parent.width
                 anchors.centerIn: parent
-                //visible: cameraStreamingRetroG.cameraStatus !== Camera.ActiveStatus
+                visible: cameraStreamingArriere.cameraStatus !== Camera.ActiveStatus
             }
         }
     }
@@ -106,16 +105,15 @@ Rectangle {
             VideoOutput {
                 source: cameraStreamingRetroG
                 anchors.fill: parent
-                fillMode:   VideoOutput.PreserveAspectCrop // VideoOutput.PreserveAspectFit , , VideoOutput.Stretch
+                fillMode: VideoOutput.PreserveAspectCrop
                 visible: cameraStreamingRetroG.cameraStatus === Camera.ActiveStatus
-
             }
             Image {
                 id: placeholderImageRetroG
                 source: "qrc:/assets/icons/logoactiawhite.png"
                 width: parent.width
                 anchors.centerIn: parent
-                //visible: cameraStreamingRetroG.cameraStatus !== Camera.ActiveStatus
+                visible: cameraStreamingRetroG.cameraStatus !== Camera.ActiveStatus
             }
         }
     }
@@ -143,16 +141,15 @@ Rectangle {
             VideoOutput {
                 source: cameraStreamingRetroD
                 anchors.fill: parent
-                fillMode: VideoOutput.PreserveAspectCrop //VideoOutput.PreserveAspectFit VideoOutput.Stretch,
+                fillMode: VideoOutput.PreserveAspectCrop
                 visible: cameraStreamingRetroD.cameraStatus === Camera.ActiveStatus
-
             }
             Image {
                 id: placeholderImageRetroD
                 source: "qrc:/assets/icons/logoactiagray.png"
                 width: parent.width
                 anchors.centerIn: parent
-                //visible: cameraStreamingRetroG.cameraStatus !== Camera.ActiveStatus
+                visible: cameraStreamingRetroD.cameraStatus !== Camera.ActiveStatus
             }
         }
     }

@@ -28,6 +28,7 @@ Item {
                 id: mapTile
                 Layout.preferredWidth: 1000
                 Layout.fillHeight: true
+
             }
 
             KeyBoardTile {

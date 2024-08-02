@@ -13,7 +13,7 @@ Item {
         anchors.fill: parent
         spacing: 0
         Item {
-            Layout.preferredWidth: parent.width * 0.10
+            Layout.preferredWidth: parent.width * 0.15
             Layout.preferredHeight: parent.height
 
             ColumnLayout {
@@ -26,9 +26,9 @@ Item {
 
                 HomeButton {
                     checked: true
-                    setIcon: "qrc:/assets/icons/Home Icon.svg"
+                    setIcon: "qrc:/assets/image/home.png"
                     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                    onClicked: sideLoader.sourceComponent = homeScreencomp
+                    onClicked: sideLoader.sourceComponent = homeScreen
                 }
                 HomeButton {
                     setIcon: "qrc:/assets/icons/camera.png"
@@ -37,23 +37,42 @@ Item {
                 }
 
                 HomeButton {
-                    setIcon: "qrc:/assets/icons/sensor.svg"
+                    setIcon: "qrc:/assets/image/sensor.png"
                     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
                     onClicked: sideLoader.sourceComponent = sensor
                 }
 
                 HomeButton {
-                    setIcon: "qrc:/assets/icons/Navigation Icon.svg"
+                    setIcon: "qrc:/assets/image/naviagtion.png"
                     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
                     onClicked: sideLoader.sourceComponent = navigationScreen
                 }
-
+                // HomeButton {
+                //     setIcon: "qrc:/assets/icons/Car Settings Icon.svg"
+                //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                //     onClicked: sideLoader.sourceComponent = carScreen
+                // }
+                // HomeButton {
+                //     setIcon: "qrc:/assets/image/motor.png"
+                //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                //     onClicked: sideLoader.sourceComponent = carScreen
+                // }
+                // HomeButton {
+                //     setIcon: "qrc:/assets/icons/Climate Control Icon.svg"
+                //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                //     onClicked: sideLoader.sourceComponent = thermoScreen
+                // }
+                // HomeButton {
+                //     setIcon: "qrc:/assets/icons/Media Icon.svg"
+                //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                //     onClicked: sideLoader.sourceComponent = musicScreen
+                // }
 
                 Item {Layout.preferredHeight: 10 }
             }
         }
         Item {
-            Layout.preferredWidth: parent.width - (parent.width * 0.10)
+            Layout.preferredWidth: parent.width - (parent.width * 0.15)
             Layout.preferredHeight: parent.height
 
             Loader {
@@ -66,7 +85,7 @@ Item {
 
 
     Component {
-        id: homeScreencomp
+        id: homeScreen
         HomeScreen {}
     }
     Component {
@@ -81,18 +100,18 @@ Item {
         id: navigationScreen
         NavigationScreen {}
     }
-    // Component {
-    //     id: carScreen
-    //     CarScreen {
-    //         onPowerOff: root.powerOff()
-    //     }
-    // }
-    // Component {
-    //     id: thermoScreen
-    //     ThermoScreen {}
-    // }
-    // Component {
-    //     id: musicScreen
-    //     MusicScreen {}
-    // }
+    Component {
+        id: carScreen
+        CarScreen {
+            onPowerOff: root.powerOff()
+        }
+    }
+    Component {
+        id: thermoScreen
+        ThermoScreen {}
+    }
+    Component {
+        id: musicScreen
+        MusicScreen {}
+    }
 }

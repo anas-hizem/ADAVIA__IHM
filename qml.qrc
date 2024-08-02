@@ -242,5 +242,13 @@
         <file>controls/PrefsButton.qml</file>
         <file>controls/PulseButton.qml</file>
         <file>Components/MeteoWidget.qml</file>
+        <file>assets/image/home.png</file>
+        <file>assets/image/lidar.png</file>
+        <file>assets/image/naviagtion.png</file>
+        <file>assets/image/sensor.png</file>
+        <file>assets/image/motor.png</file>
+        <file>screens/CarScreen.qml</file>
+        <file>screens/ThermoScreen.qml</file>
+        <file>screens/MusicScreen.qml</file>
     </qresource>
 </RCC>

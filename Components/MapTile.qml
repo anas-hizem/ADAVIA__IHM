@@ -120,7 +120,8 @@ Rectangle {
                                     destinationCoordinates = searchService.get(index).coordinates;
                                     console.log("Destination coordinates:", destinationCoordinates);
                                     geomapview.centerOnCoordinates(searchService.get(index).coordinates, -1);
-                                    searchBar.focus = false;                            }
+                                    searchBar.focus = false;
+                                    keyboard.hideKeyboard();}
                             }
                         }
                     }

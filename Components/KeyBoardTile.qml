@@ -6,10 +6,11 @@ import QtQuick.VirtualKeyboard 2.15
 import "../controls"
 
 Rectangle {
-    id: root
+    id: keyboard
+    //signal hideKeyboard()
     Layout.preferredWidth: 1000
     Layout.preferredHeight: heightOfTile
-    property int heightOfTile: inputPanel.active ? 170 : 270
+    property int heightOfTile: inputPanel.active ? 200 : 300
     property bool activePannel: inputPanel.active
     color: inputPanel.active ? "#00000000" : "#151515"
     radius: 15
@@ -182,7 +183,7 @@ Rectangle {
     InputPanel {
         id: inputPanel
         z: 99
-        x: 185
+        x: 280
         y: heightOfTile * 2
         width: 1000
 

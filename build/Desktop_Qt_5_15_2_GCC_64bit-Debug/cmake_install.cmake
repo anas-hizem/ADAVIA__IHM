@@ -1,4 +1,4 @@
-# Install script for directory: /home/user1234/Desktop/ADAVIA__IHM
+# Install script for directory: /home/anas/ADAVIA__IHM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/x86_64-linux-gnu-objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -49,15 +49,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ADAVIA__IHM"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/user1234/Desktop/ADAVIA__IHM/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/ADAVIA__IHM")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/anas/ADAVIA__IHM/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/ADAVIA__IHM")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ADAVIA__IHM" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ADAVIA__IHM")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ADAVIA__IHM"
-         OLD_RPATH "/home/user1234/Qt/5.15.2/gcc_64/lib:"
+         OLD_RPATH "/home/anas/Qt/5.15.2/gcc_64/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ADAVIA__IHM")
+      execute_process(COMMAND "/usr/bin/x86_64-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ADAVIA__IHM")
     endif()
   endif()
 endif()
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user1234/Desktop/ADAVIA__IHM/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anas/ADAVIA__IHM/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

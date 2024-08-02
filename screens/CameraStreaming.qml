@@ -35,30 +35,6 @@ Item {
             DateTimeTile {}
 
             CameraController {}
-
-
         }
     }
-    // RowLayout {
-    //     anchors.fill: parent
-    //     anchors.rightMargin: 20
-    //     anchors.bottomMargin: 20
-    //     anchors.topMargin: 30
-    //     spacing: 10
-    //     CameraView {}
-    //     Rectangle {
-    //         color: "#BDD248"
-    //         Layout.preferredWidth: 600
-    //         Layout.preferredHeight: 600
-    //         radius: 15
-
-    //         Image {
-    //             anchors.centerIn: parent
-    //             source: "qrc:/assets/navette.png"
-    //             fillMode: Image.PreserveAspectFit
-    //             width: 600
-    //             height: 600
-    //         }
-    //     }
-    // }
 }
