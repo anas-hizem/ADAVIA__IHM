@@ -10,8 +10,7 @@ Ce document décrit les étapes nécessaires pour créer un projet intégrant RO
 4. [Création du Projet Qt 5 Quick](#création-du-projet-qt-5-quick)
 5. [Intégration de ROS 2 avec Qt](#intégration-de-ros-2-avec-qt)
 6. [Exécution du Projet](#exécution-du-projet)
-7. [Dépannage](#dépannage)
-8. [Conclusion](#conclusion)
+7. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -174,12 +173,6 @@ Ce guide vous permettra de créer et d'exécuter un projet combinant ROS 2 Humbl
     ```
 
     Assurez-vous que votre application Qt est configurée pour interagir avec le node ROS 2, en utilisant les fonctions que vous avez implémentées dans l'étape précédente.
-
-## Dépannage
-
-- **Problèmes de compilation :** Assurez-vous que toutes les dépendances sont installées et que les chemins sont correctement configurés dans `CMakeLists.txt`.
-- **Problèmes de communication entre Qt et ROS 2 :** Vérifiez que les nodes ROS 2 sont correctement initialisés et que les topics sont correctement configurés.
-- **Problèmes d'exécution :** Assurez-vous que ROS 2 et Qt sont correctement installés et que toutes les variables d'environnement sont correctement configurées.
 
 ## Conclusion
 
