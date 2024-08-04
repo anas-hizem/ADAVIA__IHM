@@ -105,14 +105,3 @@ main.qml : Fichier QML principal pour l'interface utilisateur.
 2. **Composants de l'Interface**:
 - Boutons de Direction : Quatre boutons permettent de commander le robot dans différentes directions (avant, arrière, gauche, droite).
 - Curseur de Vitesse : Un curseur ajuste la vitesse du robot. La vitesse est déterminée en fonction de la valeur du curseur, allant de 0 à 100.
-
-## Perspectives :
-1. **Amélioration de l'Interface** : Ajouter des éléments visuels supplémentaires pour afficher l'état actuel du robot, comme sa position ou sa vitesse.
-2. **Gestion des Erreurs** : Ajouter des mécanismes pour gérer les erreurs et les exceptions, comme les commandes invalides ou les problèmes de connexion au robot.
-3. **Tests et Validation** : Effectuer des tests approfondis pour s'assurer que l'interface fonctionne correctement avec différentes valeurs de vitesse et de direction.
-
-
-## Étapes Prochaines :
-1. **Tester l'Interface** : Lancez turtlesim et l'application Qt pour vérifier que les boutons et le curseur fonctionnent comme prévu.
-2. **Évaluer les Performances** : Vérifiez que les commandes sont correctement envoyées et que le robot répond en temps réel.
-3. **Ajouter des Fonctionnalités** : Considérez l'ajout de nouvelles fonctionnalités, comme un affichage en temps réel de la position du robot ou des commandes supplémentaires.
