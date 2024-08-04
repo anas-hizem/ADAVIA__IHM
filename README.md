@@ -101,10 +101,11 @@ main.qml : Fichier QML principal pour l'interface utilisateur.
 # Implémentation
 - **ROS 2** : Le code dans my_node_package.cpp crée un node qui publie des messages sur des topics pour contrôler la direction et la vitesse de turtlesim.
 - **Qt 5 Quick** : L'interface graphique dans main.qml permet de contrôler turtlesim en utilisant des boutons et un curseur. Le code C++ dans main.cpp établit une connexion entre l'interface utilisateur Qt et le node ROS 2
+
 2. **Composants de l'Interface**:
 - Boutons de Direction : Quatre boutons permettent de commander le robot dans différentes directions (avant, arrière, gauche, droite).
 - Curseur de Vitesse : Un curseur ajuste la vitesse du robot. La vitesse est déterminée en fonction de la valeur du curseur, allant de 0 à 100.
-- 
+
 ## Perspectives :
 1. **Amélioration de l'Interface** : Ajouter des éléments visuels supplémentaires pour afficher l'état actuel du robot, comme sa position ou sa vitesse.
 2. **Gestion des Erreurs** : Ajouter des mécanismes pour gérer les erreurs et les exceptions, comme les commandes invalides ou les problèmes de connexion au robot.
