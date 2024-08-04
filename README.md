@@ -98,7 +98,7 @@ main.qml : Fichier QML principal pour l'interface utilisateur.
 - Publisher : En ROS 2, un publisher est utilisé pour envoyer des messages sur un topic. Dans ce projet, le publisher envoie des messages de type geometry_msgs/msg/Twist sur le topic turtle1/cmd_vel pour contrôler le robot turtlesim.
 - Subscriber : Le code actuel ne contient pas de subscriber, mais il est utilisé pour recevoir des messages depuis un topic. Pour étendre cette fonctionnalité, vous pourriez ajouter un subscriber pour recevoir des informations sur la position du robot ou d'autres données.
 
-# Implémentation
+## Implémentation
 - **ROS 2** : Le code dans my_node_package.cpp crée un node qui publie des messages sur des topics pour contrôler la direction et la vitesse de turtlesim.
 - **Qt 5 Quick** : L'interface graphique dans main.qml permet de contrôler turtlesim en utilisant des boutons et un curseur. Le code C++ dans main.cpp établit une connexion entre l'interface utilisateur Qt et le node ROS 2
 
