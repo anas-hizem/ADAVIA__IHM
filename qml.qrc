@@ -250,5 +250,36 @@
         <file>screens/CarScreen.qml</file>
         <file>screens/ThermoScreen.qml</file>
         <file>screens/MusicScreen.qml</file>
+        <file>screens/PersonDetection.qml</file>
+        <file>assets/video/test1.mp4</file>
+        <file>assets/video/test2.mp4</file>
+        <file>assets/video/test3.mp4</file>
+        <file>Components/PersonDetectionData.qml</file>
+        <file>assets/image/bus.png</file>
+        <file>assets/image/bus2.png</file>
+        <file>assets/image/GreenLight.png</file>
+        <file>assets/image/OrangeLight.png</file>
+        <file>assets/image/RedLight.png</file>
+        <file>assets/image/person.png</file>
+        <file>Components/PersonDetectionCamera.qml</file>
+        <file>screens/PanelDetection.qml</file>
+        <file>Components/PanelDetectionCamera.qml</file>
+        <file>assets/video/testTrafficLights.mp4</file>
+        <file>assets/icons/bus.png</file>
+        <file>assets/icons/feu-de-circulation.png</file>
+        <file>assets/image/Light.png</file>
+        <file>assets/image/2LightsGreenLight.png</file>
+        <file>assets/image/2LightsRedLight.png</file>
+        <file>assets/image/stop_panel.png</file>
+        <file>Components/StopPanelDetected.qml</file>
+        <file>Components/PersonDetected.qml</file>
+        <file>Components/TrafficLightDetected.qml</file>
+        <file>assets/image/personWalk.png</file>
+        <file>Components/EntryPersonDetected.qml</file>
+        <file>Components/ExitPersonDetected.qml</file>
+        <file>Components/CurrentPersonNumber.qml</file>
+        <file>assets/image/seat.png</file>
+        <file>assets/image/exit.png</file>
+        <file>assets/image/entry.png</file>
     </qresource>
 </RCC>

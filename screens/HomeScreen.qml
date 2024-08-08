@@ -28,15 +28,16 @@ Item {
                 Layout.rowSpan: 1
                 Layout.row: 0
                 Layout.column: 0
+                Layout.alignment: Qt.AlignHCenter
 
             }
             RowLayout {
-                anchors.horizontalCenter: parent.horizontalCenter
                 spacing: 20
                 Layout.columnSpan: 1
                 Layout.rowSpan: 1
                 Layout.row: 1
                 Layout.column: 0
+                Layout.alignment: Qt.AlignHCenter
 
                 MeteoWidget {}
 
@@ -54,6 +55,8 @@ Item {
                 Layout.fillWidth: true
                 Layout.row: 0
                 Layout.column: 1
+                Layout.alignment: Qt.AlignHCenter
+
 
                 DateTimeTile {}
 
@@ -65,6 +68,8 @@ Item {
                 Layout.rowSpan: 1
                 Layout.row: 1
                 Layout.column: 1
+                Layout.alignment: Qt.AlignHCenter
+
             }
         }
     }

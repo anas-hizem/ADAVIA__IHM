@@ -9,9 +9,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Quick Qml Svg Widgets VirtualKeyboard Multimedia SerialPort Positioning QuickControls2)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick Qml Svg Widgets VirtualKeyboard Multimedia SerialPort Positioning QuickControls2)
-
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Quick Qml Svg Widgets VirtualKeyboard Multimedia SerialPort Positioning QuickControls2 Network)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick Qml Svg Widgets VirtualKeyboard Multimedia SerialPort Positioning QuickControls2 Network)
 set(PROJECT_SOURCES
         main.cpp
         qml.qrc
@@ -40,6 +39,10 @@ else()
           appmodel.h appmodel.cpp
           camerastreaming.h camerastreaming.cpp
           UltrasonSensor.h UltrasonSensor.cpp
+          mytcpsocket.h mytcpsocket.cpp
+          PyqtLauncher.h PyqtLauncher.cpp
+
+
         )
     endif()
 endif()
@@ -55,6 +58,7 @@ target_link_libraries(ADAVIA__IHM PRIVATE
     Qt${QT_VERSION_MAJOR}::SerialPort
     Qt${QT_VERSION_MAJOR}::Positioning
     Qt${QT_VERSION_MAJOR}::QuickControls2
+    Qt${QT_VERSION_MAJOR}::Network
 )
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

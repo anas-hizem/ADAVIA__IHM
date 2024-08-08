@@ -9,6 +9,10 @@ Rectangle {
     width: 1000
     height: 800
     radius: 15
+    property Camera cameraAvant: cameraStreamingAvant
+    property Camera cameraArriere: cameraStreamingArriere
+    property Camera cameraRetroG: cameraStreamingRetroG
+    property Camera cameraRetroD: cameraStreamingRetroD
 
     Rectangle {
         id: cameraAvantArea

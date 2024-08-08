@@ -7,6 +7,10 @@
 #include "camerastreaming.h"
 #include "UltrasonSensor.h"
 #include "appmodel.h"
+#include "mytcpsocket.h"
+#include "PyqtLauncher.h"
+
+
 
 int main(int argc, char *argv[])
 {
@@ -18,9 +22,18 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
+
+    MyTcpSocket server;
+    server.startServer();
+    engine.rootContext()->setContextProperty("tcpSocket", &server);
+
+    //PyQt5
+    PyQtLauncher pyqtLauncher;
+    engine.rootContext()->setContextProperty("pyqtLauncher", &pyqtLauncher);
+
     //camera
-    CameraStreaming cameraStreaming;
-    engine.rootContext()->setContextProperty("cameraStreaming", &cameraStreaming);
+    CameraStreaming camerastreaming;
+    engine.rootContext()->setContextProperty("cameraStreaming", &camerastreaming);
 
     //ultrason
     UltrasonSensor sensor;

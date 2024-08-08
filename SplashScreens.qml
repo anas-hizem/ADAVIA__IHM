@@ -14,6 +14,11 @@ Item {
 
     ColumnLayout {
         anchors.centerIn: parent
+        Image {
+            Layout.alignment: Qt.AlignHCenter
+            source: "qrc:/assets/icons/logoactia.png"
+            width: parent.width
+        }
         Text {
             id: title
             Layout.alignment: Qt.AlignHCenter

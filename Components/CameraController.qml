@@ -4,14 +4,12 @@ import QtQuick.Layouts 1.15
 import QtMultimedia 5.15
 import "../controls"
 
-
 Rectangle {
-    id:navetteContainer
+    id: navetteContainer
     color: "#BDD248"
     Layout.preferredWidth: 400
     Layout.preferredHeight: 600
     radius: 15
-
 
     Text {
         id: titte
@@ -21,6 +19,7 @@ Rectangle {
         anchors.top: parent.top
         color: 'black'
     }
+
     Image {
         id: navetteImage
         anchors.centerIn: parent
@@ -72,67 +71,69 @@ Rectangle {
 
     MouseArea {
         id: textAvantArea
-        width: 50
-        height: 50
+        width: 100
+        height: 100
         anchors.top: navetteContainer.top
         anchors.topMargin: 40
-        anchors.left: parent.left
-        anchors.leftMargin: -50
-        cursorShape: Qt.PointingHandCursor;
+        anchors.left: navetteContainer.left
+        anchors.leftMargin: 10
+        cursorShape: Qt.PointingHandCursor
         onClicked: {
-            CameraView.cameraStreamingAvant.start();
-            CameraView.cameraStreamingArriere.stop()
-            CameraView.cameraStreamingRetroD.stop()
-            CameraView.cameraStreamingRetroG.stop()
+            CameraView.cameraAvant.start()
+            CameraView.cameraArriere.stop()
+            CameraView.cameraRetroG.stop()
+            CameraView.cameraRetroD.stop()
         }
         Text {
-            z:2
+            z: 2
             text: "Avant"
             anchors.centerIn: parent
             font.pixelSize: 25
             font.bold: true
         }
     }
+
     MouseArea {
         id: textArriereArea
         width: 100
         height: 100
-        anchors.top: parent.top
+        anchors.top: navetteContainer.top
         anchors.topMargin: 10
-        anchors.right: parent.right
-        anchors.rightMargin: -80
-        cursorShape: Qt.PointingHandCursor;
+        anchors.right: navetteContainer.right
+        anchors.rightMargin: 10
+        cursorShape: Qt.PointingHandCursor
         onClicked: {
-            CameraView.cameraStreamingArriere.start()
-            CameraView.cameraStreamingAvant.stop()
-            CameraView.cameraStreamingRetroD.stop()
-            CameraView.cameraStreamingRetroG.stop()
+            CameraView.cameraAvant.stop()
+            CameraView.cameraArriere.start()
+            CameraView.cameraRetroG.stop()
+            CameraView.cameraRetroD.stop()
         }
         Text {
-            z:2
+            z: 2
             text: "Arrière"
             anchors.centerIn: parent
             font.pixelSize: 25
             font.bold: true
         }
     }
+
     MouseArea {
         id: textRetroGArea
         width: 100
         height: 100
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: -10
-        anchors.right: parent.right
-        anchors.rightMargin: -60
-        cursorShape: Qt.PointingHandCursor;
+        anchors.bottom: navetteContainer.bottom
+        anchors.bottomMargin: 10
+        anchors.right: navetteContainer.right
+        anchors.rightMargin: 10
+        cursorShape: Qt.PointingHandCursor
         onClicked: {
-            CameraView.cameraStreamingRetroG.start()
-            CameraView.cameraStreamingAvant.stop()
-            CameraView.cameraStreamingRetroD.stop()
-            CameraView.cameraStreamingArriere.stop()
+            CameraView.cameraAvant.stop()
+            CameraView.cameraArriere.stop()
+            CameraView.cameraRetroG.start()
+            CameraView.cameraRetroD.stop()
         }
         Text {
-            z:2
+            z: 2
             text: "Rétro G"
             anchors.centerIn: parent
             font.pixelSize: 25
@@ -144,19 +145,19 @@ Rectangle {
         id: textRetroDArea
         width: 100
         height: 100
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: -20
-        anchors.left: parent.left
-        anchors.leftMargin: -50
-        cursorShape: Qt.PointingHandCursor;
+        anchors.bottom: navetteContainer.bottom
+        anchors.bottomMargin: 20
+        anchors.left: navetteContainer.left
+        anchors.leftMargin: 10
+        cursorShape: Qt.PointingHandCursor
         onClicked: {
-            CameraView.cameraStreamingAvant.stop()
-            CameraView.cameraStreamingRetroG.stop()
-            CameraView.cameraStreamingArriere.stop()
-            CameraView.cameraStreamingRetroD.start()
+            CameraView.cameraAvant.stop()
+            CameraView.cameraArriere.stop()
+            CameraView.cameraRetroG.stop()
+            CameraView.cameraRetroD.start()
         }
         Text {
-            z:2
+            z: 2
             text: "Rétro D"
             anchors.centerIn: parent
             font.pixelSize: 25

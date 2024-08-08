@@ -1,5 +1,7 @@
 ADAVIA__IHM_autogen/timestamp: \
 	/home/anas/ADAVIA__IHM/CMakeLists.txt \
+	/home/anas/ADAVIA__IHM/PyqtLauncher.cpp \
+	/home/anas/ADAVIA__IHM/PyqtLauncher.h \
 	/home/anas/ADAVIA__IHM/UltrasonSensor.cpp \
 	/home/anas/ADAVIA__IHM/UltrasonSensor.h \
 	/home/anas/ADAVIA__IHM/appmodel.cpp \
@@ -11,8 +13,11 @@ ADAVIA__IHM_autogen/timestamp: \
 	/home/anas/ADAVIA__IHM/camerastreaming.cpp \
 	/home/anas/ADAVIA__IHM/camerastreaming.h \
 	/home/anas/ADAVIA__IHM/main.cpp \
+	/home/anas/ADAVIA__IHM/mytcpsocket.cpp \
+	/home/anas/ADAVIA__IHM/mytcpsocket.h \
 	/home/anas/ADAVIA__IHM/qml.qrc \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtCore/QDateTime \
+	/home/anas/Qt/5.15.2/gcc_64/include/QtCore/QDebug \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtCore/QFlags \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtCore/QIODevice \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
@@ -124,7 +129,10 @@ ADAVIA__IHM_autogen/timestamp: \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkRequest \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/QTcpServer \
+	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/QTcpSocket \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qhostaddress.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkreply.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
@@ -134,6 +142,7 @@ ADAVIA__IHM_autogen/timestamp: \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpserver.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
 	/home/anas/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \

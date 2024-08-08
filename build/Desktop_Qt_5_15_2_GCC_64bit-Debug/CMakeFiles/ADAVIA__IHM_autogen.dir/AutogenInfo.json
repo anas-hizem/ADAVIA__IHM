@@ -135,6 +135,8 @@
 		"/home/anas/Qt/5.15.2/gcc_64/lib/cmake/Qt5Positioning/Qt5Positioning_QGeoPositionInfoSourceFactorySerialNmea.cmake",
 		"/home/anas/Qt/5.15.2/gcc_64/lib/cmake/Qt5QuickControls2/Qt5QuickControls2ConfigVersion.cmake",
 		"/home/anas/Qt/5.15.2/gcc_64/lib/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake",
+		"/home/anas/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/home/anas/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"/home/anas/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/anas/ADAVIA__IHM/qml.qrc"
 	],
@@ -144,6 +146,12 @@
 	"DEP_FILE_RULE_NAME" : "ADAVIA__IHM_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"/home/anas/ADAVIA__IHM/PyqtLauncher.h",
+			"MU",
+			"EWIEGA46WW/moc_PyqtLauncher.cpp",
+			null
+		],
 		[
 			"/home/anas/ADAVIA__IHM/UltrasonSensor.h",
 			"MU",
@@ -160,6 +168,12 @@
 			"/home/anas/ADAVIA__IHM/camerastreaming.h",
 			"MU",
 			"EWIEGA46WW/moc_camerastreaming.cpp",
+			null
+		],
+		[
+			"/home/anas/ADAVIA__IHM/mytcpsocket.h",
+			"MU",
+			"EWIEGA46WW/moc_mytcpsocket.cpp",
 			null
 		]
 	],
@@ -239,10 +253,12 @@
 	"SETTINGS_FILE" : "/home/anas/ADAVIA__IHM/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/ADAVIA__IHM_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/anas/ADAVIA__IHM/PyqtLauncher.cpp", "MU", null ],
 		[ "/home/anas/ADAVIA__IHM/UltrasonSensor.cpp", "MU", null ],
 		[ "/home/anas/ADAVIA__IHM/appmodel.cpp", "MU", null ],
 		[ "/home/anas/ADAVIA__IHM/camerastreaming.cpp", "MU", null ],
-		[ "/home/anas/ADAVIA__IHM/main.cpp", "MU", null ]
+		[ "/home/anas/ADAVIA__IHM/main.cpp", "MU", null ],
+		[ "/home/anas/ADAVIA__IHM/mytcpsocket.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

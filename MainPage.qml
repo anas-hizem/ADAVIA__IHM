@@ -47,16 +47,16 @@ Item {
                     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
                     onClicked: sideLoader.sourceComponent = navigationScreen
                 }
-                // HomeButton {
-                //     setIcon: "qrc:/assets/icons/Car Settings Icon.svg"
-                //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                //     onClicked: sideLoader.sourceComponent = carScreen
-                // }
-                // HomeButton {
-                //     setIcon: "qrc:/assets/image/motor.png"
-                //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                //     onClicked: sideLoader.sourceComponent = carScreen
-                // }
+                HomeButton {
+                    setIcon: "qrc:/assets/icons/bus.png"
+                    Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                    onClicked: sideLoader.sourceComponent = personDetection
+                }
+                HomeButton {
+                    setIcon: "qrc:/assets/icons/feu-de-circulation.png"
+                    Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                    onClicked: sideLoader.sourceComponent = panelDetection
+                }
                 // HomeButton {
                 //     setIcon: "qrc:/assets/icons/Climate Control Icon.svg"
                 //     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -106,6 +106,17 @@ Item {
             onPowerOff: root.powerOff()
         }
     }
+
+    Component {
+        id: personDetection
+        PersonDetection {}
+    }
+
+    Component {
+        id: panelDetection
+        PanelDetection {}
+    }
+
     Component {
         id: thermoScreen
         ThermoScreen {}
